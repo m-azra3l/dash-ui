@@ -2,38 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-  <!-- Favicon icon-->
-  <link rel="shortcut icon" type="image/x-icon" href="@@webRoot/assets/images/favicon/favicon.ico">
-
-  <!-- Libs CSS -->
-
-  <link rel="stylesheet" href="@@webRoot/node_modules/prismjs/themes/prism.css">
-  <link rel="stylesheet" href="@@webRoot/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css">
-  <link rel="stylesheet" href="@@webRoot/node_modules/prismjs/plugins/toolbar/prism-toolbar.css">
-  <link rel="stylesheet" href="@@webRoot/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="@@webRoot/node_modules/dropzone/dist/dropzone.css">
-  <link href="@@webRoot/node_modules/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-
-
-
-
-
-
-  <!-- Theme CSS -->
-  <!-- build:css @@webRoot/assets/css/theme.min.css -->
-  <link rel="stylesheet" href="@@webRoot/assets/css/theme.css">
-  <!-- endbuild -->
+  @@include("../partials/head.html")
   <title>404 error | Dash Ui - Bootstrap 5 Admin Dashboard Template </title>
 </head>
 
-<body>
+<body class="bg-white">
   <!-- Error page -->
   <div class="container min-vh-100 d-flex justify-content-center
       align-items-center">
@@ -58,16 +31,8 @@
     </div>
   </div>
   <!-- Scripts -->
-  <!-- Libs JS -->
-  <script src="@@webRoot/node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="@@webRoot/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="@@webRoot/node_modules/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-  <script src="@@webRoot/node_modules/feather-icons/dist/feather.min.js"></script>
-  <script src="@@webRoot/node_modules/prismjs/components/prism-core.min.js"></script>
-  <script src="@@webRoot/node_modules/prismjs/components/prism-markup.min.js"></script>
-  <script src="@@webRoot/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js"></script>
-  <script src="@@webRoot/node_modules/apexcharts/dist/apexcharts.min.js"></script>
-  <script src="@@webRoot/node_modules/dropzone/dist/min/dropzone.min.js"></script>
+  @@include("../partials/buy-template.html")
+  @@include("../partials/scripts.html")
 </body>
 
 </html>
